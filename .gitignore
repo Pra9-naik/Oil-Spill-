@@ -1,0 +1,35 @@
+# Dataset (too large for GitHub — upload to Google Drive for Colab)
+dataset/
+
+# Model weights
+*.pth
+
+# Output files
+output/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environment
+venv/
+env/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
