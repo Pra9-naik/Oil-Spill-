@@ -88,7 +88,7 @@ def analyze_sar(image_path):
     plt.suptitle('SAR Oil Spill Detection — Grad-CAM Analysis',
                  fontsize=14, fontweight='bold', y=1.02)
     plt.tight_layout()
-    plt.savefig(heatmap_path, dpi=150, bbox_inches='tight', quality=95)
+    plt.savefig(heatmap_path, dpi=150, bbox_inches='tight')
     plt.close()
     print(f"[Saved] Heatmap: {heatmap_path}")
 
@@ -108,7 +108,7 @@ def analyze_sar(image_path):
     plt.suptitle('SAR Oil Spill Detection — Contour Boundary',
                  fontsize=14, fontweight='bold', y=1.02)
     plt.tight_layout()
-    plt.savefig(contour_path, dpi=150, bbox_inches='tight', quality=95)
+    plt.savefig(contour_path, dpi=150, bbox_inches='tight')
     plt.close()
     print(f"[Saved] Contour: {contour_path}")
 
