@@ -48,8 +48,7 @@ def train():
     optimizer = optim.Adam(filter(lambda p: p.requires_grad, model.parameters()),
                            lr=config.LEARNING_RATE)
     scheduler = optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='max',
-                                                      patience=10, factor=0.5,
-                                                      verbose=True)
+                                                      patience=10, factor=0.5)
 
     # Training tracking
     train_losses = []
